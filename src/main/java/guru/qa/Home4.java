@@ -31,44 +31,44 @@ public class Home4 {
 
 
         //comparison (сравнение)
-        int a = 10;
-        int b = 20;
-        System.out.println("a == b = " + (a == b) );   //a == b = false
-        System.out.println("a != b = " + (a != b) );   //a != b = true
-        System.out.println("a > b = " + (a > b) );     //a > b = false
-        System.out.println("a < b = " + (a < b) );     //a < b = true
-        System.out.println("b >= a = " + (b >= a) );   //b >= a = true
-        System.out.println("b <= a = " + (b <= a) );   //b <= a = false
+        int o = 10;
+        int t = 20;
+        System.out.println("o == t = " + (o == t) );   //o == t = false
+        System.out.println("o != t = " + (o != t) );   //o != t = true
+        System.out.println("o > t = " + (o > t) );     //o > t = false
+        System.out.println("o < t = " + (o < t) );     //o < t = true
+        System.out.println("t >= o = " + (t >= o) );   //t >= o = true
+        System.out.println("t <= o = " + (t <= o) );   //t <= o = false
 
 
         //logical
-        boolean a = true;
-        boolean b = false;
+        boolean g = true;
+        boolean i = false;
 
-        System.out.println("a && b = " + (a&&b));        // a && b = false
+        System.out.println("g && i = " + (g&&i));        // g && i = false
 
-        System.out.println("a || b = " + (a||b) );        // a || b = true
+        System.out.println("g || i = " + (g||i) );        // g || i = true
 
-        System.out.println("!(a && b) = " + !(a && b));        // !(a && b) = true
+        System.out.println("!(g && i) = " + !(g && i));        // !(g && i) = true
 
 
         //assignment(присваивание)
-        int a = 10;
-        int b = 20;
-        int c = 0;
+        int e = 10;
+        int p = 20;
+        int s = 0;
 
-        c = a + b;
-        System.out.println("c = a + b = " + c );     //c = a + b = 30
+        s = e + p;
+        System.out.println("s = e + p = " + s );     //s = e + p = 30
 
-        c += a ;
-        System.out.println("c += a  = " + c );        //c += a  = 40
+        s += e ;
+        System.out.println("s += e  = " + s );        //s += e  = 40
 
 
-        c -= a ;
-        System.out.println("c -= a = " + c );        //c -= a = 30
+        s -= e ;
+        System.out.println("s -= e = " + s );        //s -= e = 30
 
-        c *= a ;
-        System.out.println("c *= a = " + c );       //c *= a = 300
+        s *= a ;
+        System.out.println("s *= e = " + s );       //s *= e = 300
 
         a = 10;
         c = 15;
